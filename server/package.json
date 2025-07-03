@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.x",
+    "dotenv": "^10.x",
+    "express": "^4.x",
+    "express-session": "^1.18.1",
+    "mongodb": "^5.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

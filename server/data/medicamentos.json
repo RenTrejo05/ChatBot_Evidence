@@ -1,0 +1,146 @@
+[
+  {
+    "nombre": "Aspirina",
+    "usos": ["Analgésico", "Antipirético", "Antiagregante plaquetario"],
+    "efectos": ["Irritación gástrica"],
+    "adversos": ["Úlcera gástrica"],
+    "presentacion": "Tabletas 100 mg, 500 mg",
+    "interacciones": ["Anticoagulantes", "Corticoesteroides"]
+  },
+  {
+    "nombre": "Cafiaspirina",
+    "usos": ["Analgésico", "Digestivo"],
+    "efectos": ["Mareos", "Somnolencia leve"],
+    "adversos": ["Náuseas"],
+    "presentacion": "Tabletas combinadas de Aspirina + Cafeína",
+    "interacciones": ["Anticoagulantes", "Cafeína en exceso"]
+  },
+  {
+    "nombre": "Famotidina",
+    "usos": ["Reflujo gastroesofágico", "Úlcera péptica"],
+    "efectos": ["Dolor de cabeza", "Estreñimiento"],
+    "adversos": ["Somnolencia"],
+    "presentacion": "Tabletas 20 mg",
+    "interacciones": ["Antiácidos"]
+  },
+  {
+    "nombre": "Loperamida",
+    "usos": ["Diarrea aguda", "Diarrea del viajero"],
+    "efectos": ["Estreñimiento"],
+    "adversos": ["Mareo"],
+    "presentacion": "Tabletas 2 mg",
+    "interacciones": []
+  },
+  {
+    "nombre": "Beclometasona",
+    "usos": ["Asma", "Rinitis alérgica"],
+    "efectos": ["Irritación de garganta"],
+    "adversos": ["Candidiasis oral (inhalada)"],
+    "presentacion": "Inhalador 100 mcg/pulso",
+    "interacciones": ["Antifúngicos sistémicos"]
+  },
+  {
+    "nombre": "Glibenclamida",
+    "usos": ["Diabetes tipo 2"],
+    "efectos": ["Hipoglucemia"],
+    "adversos": ["Aumento de peso"],
+    "presentacion": "Tabletas 5 mg",
+    "interacciones": ["Alcohol", "Beta bloqueadores"]
+  },
+  {
+    "nombre": "Fenobarbital",
+    "usos": ["Epilepsia", "Sedación preoperatoria"],
+    "efectos": ["Somnolencia", "Ataxia"],
+    "adversos": ["Dependencia"],
+    "presentacion": "Tabletas 100 mg",
+    "interacciones": ["Alcohol", "Opioides"]
+  },
+  {
+    "nombre": "Mirtazapina",
+    "usos": ["Depresión mayor"],
+    "efectos": ["Somnolencia intensa", "Aumento de apetito"],
+    "adversos": ["Aumento de peso"],
+    "presentacion": "Tabletas 15 mg",
+    "interacciones": ["Inhibidores MAO"]
+  },
+  {
+    "nombre": "Tylenol",
+    "usos": ["Alivio de dolor", "Reducción de fiebre"],
+    "efectos": ["Somnolencia leve"],
+    "adversos": ["Náuseas"],
+    "presentacion": "Tabletas 500 mg",
+    "interacciones": ["Alcohol"]
+  },
+  {
+    "nombre": "Fexofenadina",
+    "usos": ["Rinitis alérgica", "Urticaria"],
+    "efectos": ["Somnolencia leve"],
+    "adversos": ["Dolor de cabeza"],
+    "presentacion": "Tabletas 120 mg",
+    "interacciones": []
+  },
+  {
+    "nombre": "Olopatadina",
+    "usos": ["Conjuntivitis alérgica"],
+    "efectos": ["Sensación de quemazón"],
+    "adversos": ["Sequedad ocular"],
+    "presentacion": "Colirio 0.1%",
+    "interacciones": []
+  },
+  {
+    "nombre": "Penicilina",
+    "usos": ["Infecciones bacterianas"],
+    "efectos": ["Reacciones alérgicas leves"],
+    "adversos": ["Anafilaxia (raro)"],
+    "presentacion": "Polvo reconstituible para inyección",
+    "interacciones": []
+  },
+  {
+    "nombre": "Piperacillin",
+    "usos": ["Infecciones graves hospitalarias"],
+    "efectos": ["Diuresis excesiva"],
+    "adversos": ["Nefritis intersticial (raro)"],
+    "presentacion": "Polvo estéril para inyección 4 g",
+    "interacciones": ["Aminoglucósidos"]
+  },
+  {
+    "nombre": "Levofloxacino",
+    "usos": ["Infecciones respiratorias", "Infecciones urinarias"],
+    "efectos": ["Náuseas", "Dolor de cabeza"],
+    "adversos": ["Tendinitis (raro)"],
+    "presentacion": "Tabletas 500 mg",
+    "interacciones": ["Antiácidos", "Suplementos de hierro"]
+  },
+  {
+    "nombre": "Claritromicina",
+    "usos": ["Infecciones respiratorias", "Infecciones de piel"],
+    "efectos": ["Diarrea", "Dolor abdominal"],
+    "adversos": ["Prolongación QT (raro)"],
+    "presentacion": "Tabletas 500 mg",
+    "interacciones": ["Warfarina", "Colchicina"]
+  },
+  {
+    "nombre": "Budesonida",
+    "usos": ["Asma persistente", "Rinitis alérgica"],
+    "efectos": ["Sequedad nasal"],
+    "adversos": ["Candidiasis oral (inhalada)"],
+    "presentacion": "Inhalador 200 mcg/pulso",
+    "interacciones": []
+  },
+  {
+    "nombre": "Ciprofloxacino",
+    "usos": ["Infecciones urinarias", "Gastroenteritis bacteriana"],
+    "efectos": ["Náuseas", "Mareo"],
+    "adversos": ["Fototoxicidad"],
+    "presentacion": "Tabletas 500 mg",
+    "interacciones": ["Antiácidos", "Suplementos de calcio"]
+  },
+  {
+    "nombre": "Metilprednisolona",
+    "usos": ["Inflamación aguda", "Reacciones alérgicas graves"],
+    "efectos": ["Aumento de apetito", "Insomnio"],
+    "adversos": ["Hiperglucemia"],
+    "presentacion": "Tabletas 16 mg",
+    "interacciones": ["AINEs"]
+  }
+]
