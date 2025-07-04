@@ -17,7 +17,7 @@ function formatMedicamentoFull(med) {
   const parts = [];
 
   if (med.presentacion) {
-    parts.push(`Se presenta como ${med.presentacion}.`);
+    parts.push(`Se presenta comunmente como ${med.presentacion}.`);
   }
   if (med.usos && med.usos.length) {
     parts.push(`Suele utilizarse para ${listToNatural(med.usos)}.`);
@@ -35,6 +35,10 @@ function formatMedicamentoFull(med) {
   }
 
   return `¡Hola! Te cuento sobre ${med.nombre}:\n` + parts.join("\n");
+}
+
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
 /**
@@ -68,11 +72,17 @@ function formatMedicamentoField(med, field) {
       return med.interacciones && med.interacciones.length
         ? `No mezcles ${med.nombre} con ${listToNatural(med.interacciones)}.`
         : `No hay registros de interacciones para ${med.nombre}.`;
-    
 
     case "full":
     default:
-      return formatMedicamentoFull(med);
+      const saludos = [
+        `¡Claro! Te cuento sobre ${med.nombre}:`,
+        `Atención, información de ${med.nombre}:`,
+        `Aquí tienes los datos de ${med.nombre}:`,
+      ];
+      const intro = getRandom(saludos);
+      const fullInfo = formatMedicamentoFull(med);
+      return fullInfo.replace(/^¡Hola! Te cuento/, intro);
   }
 }
 
